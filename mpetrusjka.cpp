@@ -59,7 +59,7 @@ SERVOPROP petr_servoprop[8]={
    {(char*)"RHIP V",   4800, 7520, 7520, -1, 93.6},
    {(char*)"LKNEE V",  4480, 7760, 4760,  1, 93.6},
    {(char*)"LHIP V",   4640, 7520, 4640,  1, 93.6},
-   {(char*)"UPPERBACK",4160, 7680, 4160,  1, 93.2},
+   {(char*)"UPPERBACK",4900, 7680, 7680, -1, 93.2},
    {(char*)"RARM V",   4240, 8080, 8080, -1, 29.6},
    {(char*)"LARM V",   4240, 8080, 4240,  1, 29.6},
    {(char*)"NONE",     0, 0, 0, 0, 0}
@@ -75,7 +75,7 @@ SERVOPROP petr_servoprop[8]={
 
 // Current constants used on Teensy 3.6
 #define TIMECONSTANT    2.0
-#define SENSITIVITY     75
+#define SENSITIVITY     100
 
 /***************************************************************************/
 long prevtick;   /* For timing of activity */
